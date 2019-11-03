@@ -28,7 +28,7 @@ func outputRss20(sw io.StringWriter, feed *syndfeed.Feed) {
 	if !feed.LastUpdatedTime.IsZero() {
 		sw.WriteString("<lastBuildDate>" + feed.LastUpdatedTime.Format("Mon, 02 Jan 2006 15:04:05 GMT") + "</lastBuildDate>")
 	}
-	sw.WriteString(`<generator>full-rss(https://github.com/feedocean/full-rss)</generator>`)
+	sw.WriteString(`<generator>full-rss(https://github.com/stevegore/full-rss)</generator>`)
 	// image
 	if feed.ImageURL != "" {
 		sw.WriteString("<image>")
