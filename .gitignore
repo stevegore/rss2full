@@ -31,3 +31,6 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# Built binary
+rss2full
