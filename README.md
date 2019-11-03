@@ -47,16 +47,16 @@ RSS feeds for test full-text:
 ## Installation
 
 ```
-go get github.com/feedocean/rss2full
+go get github.com/stevegore/rss2full
 ```
 
 ### Binary
 
-[Download for Windows 64-bit & Linux](https://github.com/feedocean/rss2full/releases)
+[Download for Windows 64-bit & Linux](https://github.com/stevegore/rss2full/releases)
 
 ### Docker
 
-See [Dockerfile](https://github.com/feedocean/rss2full/blob/master/Dockerfile) for image details.
+See [Dockerfile](https://github.com/stevegore/rss2full/blob/master/Dockerfile) for image details.
 
 ```
 docker run -d -p 8088:8088 --name rss2full feedocean/rss2full:latest
